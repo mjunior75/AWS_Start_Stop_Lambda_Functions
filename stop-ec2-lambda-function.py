@@ -1,5 +1,5 @@
 import boto3
-region = 'choose-a-region'
+region = 'Aws-region'
 instances = ['instances-id-1', 'instances-id-2']
 ec2 = boto3.client('ec2', region_name=region)
 
